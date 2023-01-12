@@ -5,7 +5,7 @@
 }
 
 html, body{
-  background-color: #0d2e37;
+  background-color: #d68c5b;
 }
 
 .App{
@@ -25,4 +25,12 @@ html, body{
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  margin: 10px;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 645px) {
+  .contenedor-principal{
+      width: 90%;
+}
+
 }
